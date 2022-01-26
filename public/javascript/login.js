@@ -22,6 +22,8 @@ async function loginFormHandler(event) {
   }
 }
 
+document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
+
 async function signupFormHandler(event) {
   event.preventDefault();
 
@@ -39,12 +41,7 @@ async function signupFormHandler(event) {
       }),
       headers: { 'Content-Type': 'application/json' }
     });
-
-    if (response.ok) {
-      document.location.replace('/');
-    } else {
-      alert(response.statusText);
-    }
+    console.log(response);
   }
 }
 
