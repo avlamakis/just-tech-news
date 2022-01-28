@@ -20,6 +20,7 @@
     "handlebars": "^4.7.3",
     "heroku": "^7.59.2",
     "mysql2": "^2.1.0",
+    "node.js": "^0.0.1-security",
     "sequelize": "^5.21.5"
   },
   "devDependencies": {
