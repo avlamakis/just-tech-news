@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "node": "v16.13.1",
+  "engines": {
+    "node": "v16.13.1"
+  },
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js"
